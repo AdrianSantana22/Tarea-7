@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTION DE BECAS Y AYUDAS ECONOMICAS ULEAM</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+ <body>
+    <header>
+    </header>
+    <br>
+    <h1> REGISTRO DE ESTUDIANTE</h1>
+    
+    <form class="formulario">
+        <h2 >Registro</h2> <br>
+        <br>
+    <div class="User-name">  
+    <label> Nombre de usuario</label> <br>
+    <input class="username" type="text" name="username" id="username" required>
+    </div> 
+    <br>
+    
+    <div class="pass">
+    <label> Contraseña </label> <br>
+    <input class="password" type="password" name="password" id="password" required> 
+    </div>
+    <br>
+
+    <div class="Telefono">
+    <label> Telefono</label> <br>
+    <input class="cel" type="text" name="cel" id="cel" required>
+    </div>
+    <br>
+
+    <div class="correo">
+    <label> Correo Electronico </label><br>
+    <input class="email" type="email" name="email" id="email" required>
+    </div>
+    <br>
+    <div class="link">
+        <br>
+    <p class="link-inicio"><a href="InicioSesión.html"> ¿Ya tienes Cuenta? </a></p>
+    </div>
+</form>
+<br>
+<div>
+<button type="button" class="enviar" onclick="Registro()">Enviar</button>
+</div>   
+<br>
+<footer> Pagina creada por Adrián Vicente Santana Macías</footer> 
+<p id="error-message"></p>
+<script src="js/formulario.js"></script>
+ </body>
+</html>
